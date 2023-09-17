@@ -131,7 +131,7 @@ class GainLoseTool(BaseTool):
         raise NotImplementedError("get_gain_lose does not support async")
 
 # # ai logic
-# llm = ChatOpenAI(model="gpt-3.5-turbo-0613", openai_api_key = "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", temperature=0) # the temp of 0 makes it less creative and more based in the pure facts it sees in the api
+# llm = ChatOpenAI(model="gpt-3.5-turbo-0613", openai_api_key = "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", temperature=0) 
 # tools = [CurrentStockRatioTool(), CurrentAnalystTool(), CurrentRevenueSegTool(), CommodityTool(), GainLoseTool()]
 # agent = initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
 
